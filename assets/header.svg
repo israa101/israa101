@@ -55,7 +55,7 @@
 
   <!-- subtitle -->
   <text x="600" y="178" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="19" fill="#c9f7e6" letter-spacing="1">
-    &gt; AI &amp; ML Engineer &nbsp;|&nbsp; Builder of Things That Think_
+    &gt; AI &amp; ML Engineer | Builder of Things That Think_
     <animate attributeName="opacity" values="1;0.6;1" dur="1.6s" repeatCount="indefinite"/>
   </text>
 
