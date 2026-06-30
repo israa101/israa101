@@ -147,8 +147,8 @@ A running list of problems I decided machines should solve — built end-to-end,
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=israa101&show_icons=true&hide_border=true&count_private=true&bg_color=0D1117&title_color=00FFA3&icon_color=00FFA3&text_color=c9d1d9" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=israa101&layout=donut&hide_border=true&bg_color=0D1117&title_color=00FFA3&text_color=c9d1d9" />
+<img height="165" src="https://github-readme-stats-fast.vercel.app/api?username=israa101&show_icons=true&hide_border=true&count_private=true&bg_color=0D1117&title_color=00FFA3&icon_color=00FFA3&text_color=c9d1d9" />
+<img height="165" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=israa101&layout=donut&hide_border=true&bg_color=0D1117&title_color=00FFA3&text_color=c9d1d9" />
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=israa101&hide_border=true&background=0D1117&border=00FFA3&stroke=2A2F3A&ring=00FFA3&fire=00FFA3&currStreakNum=ffffff&sideNums=00FFA3&currStreakLabel=00FFA3&sideLabels=c9d1d9&dates=8b949e" alt="streak stats"/>
 
