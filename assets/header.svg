@@ -1,0 +1,65 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060A10"/>
+      <stop offset="55%" stop-color="#0B1A16"/>
+      <stop offset="100%" stop-color="#06140F"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FFA3"/>
+      <stop offset="100%" stop-color="#5CFFE0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <radialGradient id="scanGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00FFA3" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#00FFA3" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00FFA3" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="280" fill="url(#bg)"/>
+  <rect width="1200" height="280" fill="url(#grid)"/>
+
+  <!-- floating glow orb -->
+  <circle cx="1060" cy="70" r="160" fill="url(#scanGlow)">
+    <animate attributeName="cx" values="1060;1100;1060" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="120" cy="230" r="140" fill="url(#scanGlow)">
+    <animate attributeName="cy" values="230;190;230" dur="7s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- scanning line -->
+  <rect x="-200" y="0" width="3" height="280" fill="#00FFA3" opacity="0.55">
+    <animate attributeName="x" values="-200;1400" dur="4.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- corner bracket accents -->
+  <path d="M40 40 L40 70 M40 40 L70 40" stroke="#00FFA3" stroke-width="3" fill="none" opacity="0.8"/>
+  <path d="M1160 40 L1160 70 M1160 40 L1130 40" stroke="#00FFA3" stroke-width="3" fill="none" opacity="0.8"/>
+  <path d="M40 240 L40 210 M40 240 L70 240" stroke="#00FFA3" stroke-width="3" fill="none" opacity="0.8"/>
+  <path d="M1160 240 L1160 210 M1160 240 L1130 240" stroke="#00FFA3" stroke-width="3" fill="none" opacity="0.8"/>
+
+  <!-- main title -->
+  <text x="600" y="138" text-anchor="middle" font-family="'Segoe UI', 'JetBrains Mono', monospace" font-size="56" font-weight="700" fill="url(#textGrad)" filter="url(#glow)">
+    Israa Hamdy Hussein
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- subtitle -->
+  <text x="600" y="178" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="19" fill="#c9f7e6" letter-spacing="1">
+    &gt; AI &amp; ML Engineer &nbsp;|&nbsp; Builder of Things That Think_
+    <animate attributeName="opacity" values="1;0.6;1" dur="1.6s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- bottom wave -->
+  <path d="M0,280 L0,250 Q300,210 600,250 T1200,250 L1200,280 Z" fill="#00FFA3" opacity="0.08"/>
+  <path d="M0,280 L0,265 Q300,235 600,265 T1200,265 L1200,280 Z" fill="#00FFA3" opacity="0.15"/>
+</svg>
